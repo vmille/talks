@@ -105,18 +105,14 @@ Meetup: https://discord.gg/3K69BvqK
 ## Sponsor
 
 <style scoped>
-section {
-  background: #dadada;
-  color: #2b2d30;
-}
-h2 {
-    color: #2b2d30;
-    border-bottom: 3px solid #2b2d30;
-}
 img[alt~='center'] {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-color: #dadada;
+    border-color: #dadada;
+    border-width: 10px;
+    border-style: solid;
 }
 </style>
 Thank you !
