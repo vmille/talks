@@ -1,0 +1,50 @@
+/**
+ * @theme frug
+ * @auto-scaling code
+ */
+@import 'gaia';
+
+section {
+    font-family: Tahoma, serif;
+    color: #ffffff;
+    container-type: inline-size;
+    background: linear-gradient(90deg, rgba(1,0,0,1) 0%, rgba(77,35,0,1) 100%);
+}
+
+section.title {
+    background: linear-gradient(90deg, rgba(1,0,0,1) 0%, rgba(77,35,0,1) 100%);
+    align-items: flex-start;
+    color: #dadada;
+}
+
+section.title > div > figure {
+    filter: drop-shadow(0 0 5px #dadada) !important;
+}
+
+section:has(> h1) {
+    background: linear-gradient(90deg, rgba(1,0,0,1) 0%, rgba(77,35,0,1) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h1 {
+    color: #dadada;
+}
+
+h2 {
+    color: #dadada;
+    border-bottom: 3px solid #484b50;
+}
+
+footer{
+    font-size: 0.3rem;
+    font-style: italic;
+}
+
+section::after{
+    font-size: 0.8rem;
+    font-style: italic;
+}
