@@ -48,3 +48,11 @@ section::after{
     font-size: 0.8rem;
     font-style: italic;
 }
+
+.container {
+    display: flex;
+}
+
+.col{
+    flex:1;
+}

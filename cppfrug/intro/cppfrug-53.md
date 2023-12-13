@@ -82,6 +82,27 @@ Meetup: https://discord.gg/3K69BvqK
 * Une proposition de présentation ?
 
 ---
+## MISRA
+
+<div class="container">
+<div class="col">
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+MISRA 2023 is out !
+
+</div>
+<div class="col">
+
+![](assets/firework.gif)
+
+</div>
+</div>
+
+---
 ## Vidéos
 
 * Premières vidéos de MeetingC++ 2023
@@ -97,8 +118,6 @@ Meetup: https://discord.gg/3K69BvqK
 - C++Now: 7-12 mai, Aspen, US
 - CppOnSea: 2-5 juillet, Folkstone, UK
 - CppCon: 15-20 septembre, Aurora, US
-
-
 
 ---
 
