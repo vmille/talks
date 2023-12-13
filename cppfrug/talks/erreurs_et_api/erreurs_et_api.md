@@ -108,12 +108,13 @@ Pour la suite, on aura 2 axes:
 ## Code erreur
 
 <p style="text-align: center">Votre avis: API explicite ou pas ?</p>
-</br>
+<br/>
 
 ```cpp
 int foo(auto buffer, int* byte_read);
 ```
-</br>
+
+<br/>
 
 ```cpp
 int foo(auto buffer, int* error_code);
@@ -154,13 +155,13 @@ Qui alloue le paramètre in/out ?
 ## Structure de contrôle d'erreur
 
 <p style="text-align: center">Votre avis: API explicite ou pas ?</p>
-</br>
+<br/>
 
 ```cpp
 content_type foo(auto buffer, error_code* e)
 ```
 
-</br>
+<br/>
 
 ```cpp
 error_code foo(auto buffer, content_type* e)
@@ -230,12 +231,14 @@ Mais facilitent un peu l'utilisation:
 ```cpp
 void write(auto buffer);
 ```
-</br>
+
+<br/>
 
 ```cpp
 void write(auto buffer) throw;
 ```
-</br>
+
+<br/>
 
 ```
 void write(auto buffer) throw OutOfMemory, ConversionException;
@@ -309,7 +312,7 @@ Pour les 3 premiers cas, plusieurs questions sont à poser:
 ## Structure de contrôle de flux
 
 <p style="text-align: center">Votre avis: API explicite ou pas ?</p>
-</br>
+<br/>
 
 ```cpp
 result_type write(auto buffer);
@@ -324,8 +327,8 @@ result_type = value_type || error_type
 ## Structure de contrôle de flux
 
 <p style="text-align: center">Votre avis: API explicite ou pas ?</p>
-</br>
-</br>
+<br/>
+<br/>
 
 ```cpp
 std::expected<file_handle, write_error> write(auto buffer);
