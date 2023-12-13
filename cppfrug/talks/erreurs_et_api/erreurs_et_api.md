@@ -390,7 +390,7 @@ res.value(); // throw exception
 
 L'utilisation de structure de controle de flux permet:
 * d'être extrèmement explicite dans l'intention du fournisseur
-* de limiter les mauvais usages
+* de limiter les mauvais usages par le consommateur
 * de restreindre les adhérences (types opaques ou ~anonymes)
 
 ---
@@ -401,5 +401,13 @@ L'utilisation de structure de controle de flux permet:
 
 * Définir et signifier une erreur est complexe et contextuel
 * Quand vous déclarer une erreur, tenez compte des conventions, des technologies, des bonnes pratiques, ...
-* Soyez le plus explicite possible dans le domaine que vous exposez
-* Idéalement privilégier _std::expected_ pour les erreurs à la gestion utilisateurs et les exceptions pour les erreurs irrécuperablesfs
+* Etre le plus explicite possible dans le domaine que vous exposez en tant que fournisseur
+* Lire la documentation en tant que consommateur
+
+---
+## Mots de la fin
+
+Une bonne pratique peut être de privilégier:
+
+- _std::expected_ pour les erreurs recupérables
+- les exceptions pour les erreurs irrécuperables
