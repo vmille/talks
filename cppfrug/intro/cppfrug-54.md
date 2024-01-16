@@ -76,7 +76,6 @@ Join the Discord servers
 # News from the C++ ecosystem and community
 
 ---
-
 ## News from the C++ ecosystem and community
 
 [December mailing](https://open-std.org/jtc1/sc22/wg21/docs/papers/2023/#mailing2023-12)
@@ -86,6 +85,12 @@ Join the Discord servers
 
 * MeetingC++ 2023
 * CppCon 2023
+
+---
+## C++ in Linux kernel ?
+
+[Link](https://lore.kernel.org/lkml/3465e0c6-f5b2-4c42-95eb-29361481f805@zytor.com/)
+Return of a discussion about integrating C++ (or a subset) in the Linux kernel
 
 ---
 ## Conferences 2024
