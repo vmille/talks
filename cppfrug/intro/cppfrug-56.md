@@ -120,4 +120,12 @@ Thank you !
 ![center w:500 MARGO Logo](assets/MARGO-logo.png)
 
 ---
+
+![bg](assets/Slides_MARGO_1.svg)
+
+---
+
+![bg](assets/Slides_MARGO_2.svg)
+
+---
 # Learn and share our knowledges of the C++ !
