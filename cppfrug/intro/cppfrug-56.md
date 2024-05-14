@@ -112,15 +112,12 @@ img[alt~='center'] {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: #dadada;
-    border-color: #dadada;
-    border-width: 10px;
-    border-style: solid;
 }
 </style>
+
 Thank you !
 
-![center w:500 MARGO Logo](assets/margo-logo.svg)
+![center w:500 MARGO Logo](assets/MARGO-logo.png)
 
 ---
 # Learn and share our knowledges of the C++ !
