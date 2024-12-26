@@ -94,4 +94,16 @@ children === process / workers / ...
 ---
 ## Types of ownership
 
+If unique:
+- the child decide what to do without other possibility of objects
+
+If shared:
+- the children must synchronise to decide what to do:
+-- update parts of the square (race concurrency, not in scope)
+-- wipe the square (destroy objects)
+
+---
+## Why do we need to delete ?
+
+
 
