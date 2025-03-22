@@ -2,3 +2,5 @@
 /package-lock.json
 .idea
 /.direnv/*
+*.DS_Store
+

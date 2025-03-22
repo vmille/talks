@@ -12,7 +12,7 @@
     in
       {
           devShells.default = pkgs.mkShell {
-            buildInputs = [ pkgs.git pkgs.nodejs pkgs.marp-cli pkgs.jetbrains.webstorm];
+            buildInputs = [ pkgs.devbox ];
           };
       }
     );
