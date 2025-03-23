@@ -78,6 +78,14 @@ Join the Discord servers
 ---
 ## ISO
 
+Last month in Hagenberg, Austria, the following were approved for C++26:
+- [P2900R14](https://wg21.link/P2900R14): Contracts for C++
+- [P2786R13](https://wg21.link/P2786R13): Trivial Relocatability For C++26
+- [P2841R7](https://wg21.link/P2841R7): Concept and variable-template template-parameters
+- [P3471R3](https://wg21.link/P3471R3): Standard Library Hardening
+- [P0260R15](https://wg21.link/P0260R15): C++ Concurrent Queues
+- [P3179R6](https://wg21.link/P3179R6): C++ parallel range algorithms
+
 ---
 ## Compilers
 
