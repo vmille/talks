@@ -31,7 +31,7 @@ For the 7th time
 - 19h15 News of the C++ ecosystem
 - 19h20 Heaps Don't Lie - Guidelines for Memory Allocation in C++ -- Mathieu Ropert
 - 20h20 Snacks & drinks
-- 21h20 The CUDA C++ Developer's Toolbox -- Bryce Adelstein Lelbach
+- 21h00 The CUDA C++ Developer's Toolbox -- Bryce Adelstein Lelbach
 
 ---
 # C++FrUG
