@@ -11,19 +11,14 @@ footer: '![w:50](assets/Cpp-Francophonie.svg)'
 
 ---
 
-# #56 !
+# #58 !
 
 ---
 ## I am you host
 
 For the 7th time
-
----
-## I am you host
-
-Vivien MILLE
-
-- Developer at BNPP CIB
+- Vivien MILLE
+- Developer & Code cleaner at BNPP CIB
 
 ---
 # Schedule
@@ -49,9 +44,19 @@ You can participate !
 ---
 ## C++FrUG
 
+You need to participate !
+
+---
+## C++FrUG
+
 Propose a talk !
 
-We can help to build your presentation
+We can help to build your presentation and adapt the agenda
+
+Remainder:
+* Lightning talk
+* Short talk (15-30 minutes)
+* Full-fledged talk (50-60 minutes)
 
 ---
 
@@ -60,17 +65,24 @@ We can help to build your presentation
 Host a C++ meetup !
 
 You can:
-- host the event (in your company, in a rented room)
-- sponsor pizzas & drinks
+* host the event (in your company, in a rented room)
+* sponsor snacks & drinks
 
 ---
 ## C++FrUG
 
 Join the Discord servers
 
-[C++Frug](https://discord.gg/YmKMABu9)
+[C++FrUG](https://discord.gg/YmKMABu9)
 
 [Meetup](https://discord.gg/3K69BvqK)
+
+---
+## C++FrUG
+
+You can [join](https://www.helloasso.com/associations/c-frug) the association !
+
+Next AG is Monday
 
 ---
 # News from the C++ ecosystem and community
@@ -94,9 +106,6 @@ Clang 20:
 - [P2641R4](https://wg21.link/P2893) Checking if a union alternative is active
 
 gcc 15: still in progress, probably April
-
----
-## 
 
 ---
 ## Conferences 2025
@@ -125,14 +134,6 @@ img[alt~='center'] {
 Thank you !
 
 ![center w:500 Logo Murex](assets/logo-murex.svg)
-
----
-
-![bg](assets/Slides_MARGO_1.svg)
-
----
-
-![bg](assets/Slides_MARGO_2.svg)
 
 ---
 # Learn and share our knowledges of the C++ !
