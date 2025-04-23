@@ -96,10 +96,6 @@
             "switches": []
         }
     },
-    "resolution": {
-        "x": 2560,
-        "y": 1440
-    },
     "sources": [
         {
             "prev_ver": 503382018,
@@ -192,8 +188,11 @@
             "versioned_id": "browser_source",
             "settings": {
                 "is_local_file": true,
-                "local_file": "/Users/vmille/projects/talks/cppfrug/intro/assets/MARGO-logo.png",
-                "url": "https://www.w3schools.com/html/html_basic.asp"
+                "local_file": "/Users/vmille/projects/talks/cppfrug/logo.html",
+                "url": "https://www.w3schools.com/html/html_basic.asp",
+                "width": 960,
+                "height": 650,
+                "css": "body { margin: 0px auto; overflow: hidden; }"
             },
             "mixers": 255,
             "sync": 0,
@@ -226,7 +225,7 @@
             "versioned_id": "scene",
             "settings": {
                 "custom_size": false,
-                "id_counter": 31,
+                "id_counter": 32,
                 "items": [
                     {
                         "name": "Background",
@@ -391,12 +390,12 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 2270.0,
-                            "y": 1222.0
+                            "x": 2171.0,
+                            "y": 1177.0
                         },
                         "scale": {
-                            "x": 0.36250001192092896,
-                            "y": 0.36333334445953369
+                            "x": 0.40520831942558289,
+                            "y": 0.4046153724193573
                         },
                         "align": 5,
                         "bounds_type": 0,
@@ -430,8 +429,8 @@
                         "locked": false,
                         "rot": 0.0,
                         "pos": {
-                            "x": 793.0,
-                            "y": 1244.0
+                            "x": 439.0,
+                            "y": 1258.0
                         },
                         "scale": {
                             "x": 0.28409090638160706,
@@ -557,8 +556,6 @@
                 "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.14": [],
                 "libobs.hide_scene_item.14": [],
-                "libobs.show_scene_item.8": [],
-                "libobs.hide_scene_item.8": [],
                 "libobs.show_scene_item.11": [],
                 "libobs.hide_scene_item.11": [],
                 "libobs.show_scene_item.15": [],
@@ -570,7 +567,9 @@
                 "libobs.show_scene_item.19": [],
                 "libobs.hide_scene_item.19": [],
                 "libobs.show_scene_item.31": [],
-                "libobs.hide_scene_item.31": []
+                "libobs.hide_scene_item.31": [],
+                "libobs.show_scene_item.8": [],
+                "libobs.hide_scene_item.8": []
             },
             "deinterlace_mode": 0,
             "deinterlace_field_order": 0,
@@ -622,8 +621,8 @@
                 },
                 "input_format": 2,
                 "resolution": "{\"width\":1920,\"height\":1080}",
-                "device": "0x110000032ed311e",
-                "device_name": "ezcap GameLink"
+                "device_name": "ezcap GameLink",
+                "device": "0x110000032ed311e"
             },
             "mixers": 255,
             "sync": 0,
@@ -689,7 +688,6 @@
             "id": "text_ft2_source",
             "versioned_id": "text_ft2_source_v2",
             "settings": {
-                "text": "Coroutines & TBA",
                 "undo_uuid": "4df6d2f9-6042-46e5-b951-161acf16c878",
                 "font": {
                     "face": "PT Mono",
@@ -698,7 +696,8 @@
                     "style": "Bold"
                 },
                 "color1": 4280756265,
-                "color2": 4280756265
+                "color2": 4280756265,
+                "text": "C++ Coroutines - Gods from the Machine"
             },
             "mixers": 0,
             "sync": 0,
