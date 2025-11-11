@@ -1,5 +1,6 @@
 ---
 paginate: true
+_paginate: false
 footer: 'API of an error - 28/11/2025'
 marp: true
 ---
@@ -9,10 +10,11 @@ marp: true
 
 # API of an error
 
+<br/>
 
-<p style="font-size: x-large">Vivien MILLE</p>
+<p style="font-size: x-large; position: relative; left: 80%; top: 30%">Vivien MILLE</p>
 
-<p style="font-size: x-large">28/10/2025</p>
+<p style="font-size: x-large; position: relative; left: 80%; top: 30%">28/10/2025</p>
 
 ---
 ## Disclaimer
@@ -28,7 +30,7 @@ marp: true
 ---
 ## Remainders
 
-APIs 
+APIs
 * are contracts between providers & consumers
 * should be easy to use & understand, hard to misuse
 * should be strictly scoped (cf Hyrum's law)
@@ -39,11 +41,12 @@ APIs
 ---
 ## Common thinking
 
-An error can be:
-* unexpected behavior
-* fault in logic
-* situation expected a specific treatment
-* ~~happy path~~
+An error can be seen as:
+
+* an unexpected behavior
+* a fault in logic
+* a situation expected a specific treatment
+* ~~the happy path~~
 
 ---
 ## Where do responsibilities fall ?
@@ -73,6 +76,8 @@ An error can be:
 ---
 ## 4 ways
 
+Errors can be signaled with:
+
 1) Error code
 2) Structure of error
 3) Exception
@@ -81,13 +86,16 @@ An error can be:
 ---
 ## Axes of evaluation
 
+For this presentation, we will "measure" 4 axes:
+
 * Readable (ie self-hosted meaning)
 * Extensible (ie add more details/types/...)
 * Not-ignorable (ie hard to misuse)
 * Performant (ie fast to raise & manage)
 
 ---
-# Signal 1: error code
+# Signal 1
+# Error code
 
 ---
 ## Signal 1: error code
@@ -112,7 +120,8 @@ int foo(auto* buffer, int* error_code);
 ➕ fast
 
 ---
-# Signal 2: structure of error
+# Signal 2
+# Structure of error
 
 ---
 ## Signal 2: structure of error
@@ -130,7 +139,8 @@ error_code foo(auto buffer, content_type* e)
 ➕ self-hosted signification
 
 ---
-# Signal 3: exception
+# Signal 3
+# Exception
 
 ---
 ## Signal 3: exception
@@ -155,6 +165,8 @@ void write(auto buffer) throw;
 ```java
 void write(auto buffer) throw OutOfMemory, ConversionException;
 ```
+
+<br/>
 
 ➖ goto in disguise
 ➕ catch or die
@@ -190,7 +202,8 @@ catch (...)
 ```
 
 ---
-# Signal 4: control flow
+# Signal 4
+# Control flow
 
 ---
 ## Signal 4: control flow
@@ -226,8 +239,6 @@ auto res = write(b); // contains error
 res.value(); // throws exception
 ```
 
-<!-- _footer: '' -->
-
 ---
 ## Signal 4: control flow
 
@@ -239,7 +250,9 @@ result_type write(auto buffer);
 std::expected<file_handle_t, write_error_t> write(auto buffer);
 ```
 
-➖ ?
+<br/>
+
+➖ hard to implement for some languages
 ➕ manage or die
 
 ---
@@ -248,14 +261,18 @@ std::expected<file_handle_t, write_error_t> write(auto buffer);
 ---
 ## Comparisons
 
+<style>
+table {
+    font-size: 0.9rem;
+}
+</style>
+
 | API                | Readable | Extensible | Not-ignorable | Performant | 
 |--------------------|----------|------------|---------------|------------|
 | Error code         | 🔴       | 🔴         | 🔴            | 🟢         |
 | Structure of error | 🟢       | 🟠         | 🔴            | 🟠         |
 | Exception          | 🔴       | 🟠         | 🟢            | 🟠         |
 | Control flow       | 🟠       | 🟢         | 🟢            | 🟠         |
-
-<!-- _footer: '' -->
 
 ---
 ## Conclusion
