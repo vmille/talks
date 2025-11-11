@@ -1,5 +1,6 @@
 ---
 paginate: true
+footer: 'API of an error - 28/11/2025'
 marp: true
 ---
 
@@ -49,10 +50,10 @@ An error can be:
 
 Who decide if a special treatment is needed (ie who signal what and who manage what) ?
 
-* API provider ?
-* API consumer ?
-* on everyone ?
-* on no one ?
+* provider ?
+* consumer ?
+* both ?
+* neither ?
 
 ---
 ## Points of view of an error
@@ -70,7 +71,7 @@ An error can be:
 # 4 signals of error
 
 ---
-## 4 signals
+## 4 ways
 
 1) Error code
 2) Structure of error
@@ -91,7 +92,7 @@ An error can be:
 ---
 ## Signal 1: error code
 
-<p style="text-align: center"><span style="font-size: 300%">Glory to C !</span></p>
+<p style="text-align: center; position: relative; top: 20%"><span style="font-size: 300%">Glory to C !</span></p>
 
 ---
 ## Signal 1: error code
@@ -134,7 +135,11 @@ error_code foo(auto buffer, content_type* e)
 ---
 ## Signal 3: exception
 
-<p style="text-align: center"><span style="font-size: 300%">Also called the nuclear option</span></p>
+<p style="text-align: center; position: relative; top: 10%">
+<span style="font-size: 300%">Also called the nuclear option</span>
+<br>
+<span style="font-size: 50%">Please use Lippincott function</span>
+</p>
 
 ---
 ## Signal 3: exception
@@ -153,6 +158,36 @@ void write(auto buffer) throw OutOfMemory, ConversionException;
 
 ➖ goto in disguise
 ➕ catch or die
+
+---
+## Lippincott function
+
+```cpp
+int main() try {
+    
+}
+catch(...) {
+    return lippincott();
+}
+```
+
+---
+## Lippincott function
+
+```cpp
+int lippicott() try
+{
+    throw;
+}
+catch (const my::exception_1&)
+{
+    return my::return_code::error_1;
+}
+catch (...)
+{
+    return my::return_code::unknown;
+}
+```
 
 ---
 # Signal 4: control flow
@@ -191,6 +226,8 @@ auto res = write(b); // contains error
 res.value(); // throws exception
 ```
 
+<!-- _footer: '' -->
+
 ---
 ## Signal 4: control flow
 
@@ -218,6 +255,8 @@ std::expected<file_handle_t, write_error_t> write(auto buffer);
 | Exception          | 🔴       | 🟠         | 🟢            | 🟠         |
 | Control flow       | 🟠       | 🟢         | 🟢            | 🟠         |
 
+<!-- _footer: '' -->
+
 ---
 ## Conclusion
 
@@ -229,9 +268,13 @@ As consumer:
 * Read the APIs & the documentations
 * Follow the conventions of your APIs
 
+---
+## Conclusion
+
 Limitations:
 * Technical (control flow may not be implemented)
 * Good practices & conventions
 
 ---
 # Questions
+

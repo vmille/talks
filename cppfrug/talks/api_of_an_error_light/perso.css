@@ -119,19 +119,22 @@ p {
 }
 
 footer{
-    font-size: 0.3rem;
+    font-size: 0.7rem;
     font-style: italic;
+    border-top: 1px solid #3f4247;
 }
 
 section::after{
-    font-size: 0.8rem;
+    font-size: 1.5rem;
     font-style: italic;
-}
-
-.container {
-    display: flex;
+    color: #3f4247;
 }
 
 .col{
     flex:1;
+}
+
+td > img {
+    position: relative;
+    left: 40%
 }
