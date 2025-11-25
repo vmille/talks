@@ -123,13 +123,13 @@ Thank you !
 ![center w:500 Logo MARGO](assets/MARGO-logo.png)
 
 ---
-[bg](assets/2025-Slide-MARGO-1.png)
+![bg](assets/2025-Slide-MARGO-1.png)
 
 ---
-[bg](assets/2025-Slide-MARGO-2.png)
+![bg](assets/2025-Slide-MARGO-2.png)
 
 ---
-[bg](assets/2025-Slide-MARGO-3.png)
+![bg](assets/2025-Slide-MARGO-3.png)
 
 ---
 # Learn and share our knowledge of the C++ !
