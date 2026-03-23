@@ -74,7 +74,7 @@ Join the Discord servers
 [Meetup](https://discord.gg/3K69BvqK)
 
 ---
-# News of the C++ ecosystem
+## News of the C++ ecosystem
 
 * ISO in London
 * LLVM 22
