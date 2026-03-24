@@ -112,10 +112,10 @@ Thank you !
 ![bg](assets/2025-Slide-MARGO-1.png)
 
 ---
-![bg](assets/2025-Slide-MARGO-2.png)
+![bg](assets/2026-slides-MARGO-2.jpg)
 
 ---
-![bg](assets/2025-Slide-MARGO-3.png)
+![bg](assets/2026-slides-MARGO-3.jpg)
 
 ---
 # Learn and share our knowledge of the C++ !
