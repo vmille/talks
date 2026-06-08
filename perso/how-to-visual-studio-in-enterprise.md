@@ -3,10 +3,14 @@ paginate: true
 footer: Vivien MILLE / CppFrUG / 09/06/2026 / All rights to their respective owners
 ---
 
-# How to Visual Studio 
-# in enterprise ?
+# Distribute Visual Studio in your company
+### From nightmare to ok(ish)
 
-Vivien MILLE / CppFrUG / 09/06/2026
+<br/>
+<br/>
+<br/>
+
+<p style="text-align: center; position: relative; bottom: -10%"><span style="font-size: 60%">Vivien MILLE / CppFrUG / 09/06/2026</span></p>
 
 <!-- _footer: "" -->
 
@@ -92,6 +96,9 @@ Component
 Layout: pack of components (installed or not)
 
 ---
+# Visual Studio sources
+
+---
 ## Visual Studio sources
 
 Before VS2022 17.10 (May 2024):
@@ -129,7 +136,18 @@ Simple:
 ---
 ## Internal hosting
 
-<p style="text-align: center; position: relative; top: 20%"><span style="font-size: 200%">"""Relatively""" simple</span></p>
+<p style="text-align: center; position: relative; top: 0%"><span style="font-size: 200%">"""Relatively""" simple</span></p>
+
+<style scoped>
+img[alt~='center'] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+
+![center](assets/dr-evil-sarcasm.gif)
+
 
 ---
 # Installation process
@@ -219,18 +237,18 @@ What I did (mainly reverse engineering):
 ---
 ## "Happy ending ?": NO
 
-- documentation confusing/not up to date/wrong
-- missing certificate in the installer
-- SYSTEM may connect to internet even with noWeb
-- channel URIs have different formats if you are pointing to MS (URI root) or internal (ChannelManifest.json)
+* documentation confusing/not up to date/wrong
+* missing certificate in the installer
+* SYSTEM may connect to internet even with noWeb
+* channel URIs have different formats if you are pointing to MS (URI root) or internal (ChannelManifest.json)
 
 ---
 ## "Happy ending ?": NO
 
-- VS Installer should ALWAYS be up to date
-- installation of some DLLs blocked by security tools
-- security tools corrupt state file of VS (late file handle release)
-- ...
+* VS Installer should ALWAYS be up to date
+* installation of some DLLs blocked by security tools
+* security tools corrupt state file of VS (late file handle release)
+* ...
 
 ---
 ## "Happy ending ?": Good practices
