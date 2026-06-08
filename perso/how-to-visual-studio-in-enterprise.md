@@ -11,6 +11,13 @@ Vivien MILLE / CppFrUG / 09/06/2026
 <!-- _footer: "" -->
 
 ---
+## Who ?
+
+* staff engineer at BNP Paribas CIB
+* interested in performance for tools & organisations
+* C++ related stuff in the company
+
+---
 # ABI vs enterprise
 
 ---
