@@ -82,6 +82,8 @@ Join the Discord servers
 - ACCU on Sea: 17-20 June, Folkstone, EN
 - CppCon: 12-18 Sep, Aurora, US
 - NDC Techdown: 21-24 Sep, Kongsberg, NO
+- C++ Under the Sea: 15-16 Oct, Breda, NE
+- MeetingCpp: 26-28 Nov, Berlin, GE
 
 ---
 ## Sponsor
