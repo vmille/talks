@@ -100,7 +100,7 @@ img[alt~='center'] {
 
 Thank you !
 
-![center w:500 Logo SIJOO](assets/SIJO.png)
+![center w:500 Logo SIJOO](assets/logo-sijo.png)
 
 
 ---
