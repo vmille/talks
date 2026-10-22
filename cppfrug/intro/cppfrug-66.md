@@ -113,6 +113,8 @@ Thank you !
 
 ![center w:500 Logo MARGO](assets/MARGO-logo.png)
 
+---
+![bg](assets/2026-slides-MARGO-3.jpg)
 
 ---
 # Announcement
